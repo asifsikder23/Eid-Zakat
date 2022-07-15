@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    font-family: 'roboto'
+}
+header{
+    display: flex;
+    justify-content:space-between
+}
+.logo{
+    height: 50px;
+    width: 150px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+nav li a:hover{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+.banner-container{
+    background-image: url(resources/images/Zakat-recipients-in-Quran-.jpg);
+    height: 300px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 130px;
+    margin-top: 1px;
+}
+button{
+    background-color: brown;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: none;
+}
+button:hover{
+    background-color: green;
+}
+.button{
+    text-decoration: none;
+    color: white;
+}
+.zakat-definition{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.Zakat-text{
+    padding-left: 30px;
+}
+.heading{
+    font-size: 30px;
+}
+.article{
+    opacity: 80%;
+    text-align: justify;
+}
+.social-change{
+    display: flex;
+}
+.helping{
+    padding-right: 50px;
+}
+.headline{
+    text-align: center;
+}
+.headline-text{
+    font-size: 30px;
+}
+#headline-text{
+    opacity: 80%;
+}
